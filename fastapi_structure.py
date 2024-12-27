@@ -51,8 +51,6 @@ def main():
             if entry.is_dir():
                 if entry.name.startswith("."):
                     pass
-                elif entry.name == "SealBoundRunes":
-                    pass
                 else:
                     create_structure(entry.name)
             else:
